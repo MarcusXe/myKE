@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/main_grid_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/table_row_height"
+        android:background="@drawable/table_frame"
+        android:rowCount="1"
+        android:columnCount="15">
+    </GridLayout>
+    <GridView
+        android:id="@+id/main_grid_title1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="5"
+        android:columnCount="5">
+    </GridView>
+    <GridLayout
+            android:id="@+id/main_grid_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="12"
+            android:columnCount="8">
+    </GridLayout>
+</LinearLayout>
